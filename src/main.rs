@@ -4,6 +4,7 @@ use dioxus::prelude::*;
 mod components;
 
 use components::carousel::Carousel;
+use components::cabinet::BookCase;
 
 fn main() {
     // init debug tool for WebAssembly
@@ -17,7 +18,8 @@ fn app(cx: Scope) -> Element {
     cx.render(rsx! (
         div {
             class: "container mx-auto",
-            Carousel {}
+            Carousel {},
+            BookCase {},
         }
     ))
 }
