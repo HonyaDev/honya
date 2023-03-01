@@ -3,7 +3,7 @@ use dioxus::prelude::*;
 pub fn Carousel(cx: Scope) -> Element {
     cx.render(rsx! (
         div {
-            class: "shadow-lg shadow-black",
+            class: "shadow-lg shadow-black mb-10",
             h1 {
                 class: "text-4xl py-4",
                 "From Library"
