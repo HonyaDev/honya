@@ -15,4 +15,4 @@ Cargo.lock
 /target
 
 # General
-/dist
+honya-frontend/dist
