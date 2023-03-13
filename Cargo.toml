@@ -1,2 +1,2 @@
 [workspace]
-members = ["honya-frontend"]
+members = ["honya-backend", "honya-frontend"]
