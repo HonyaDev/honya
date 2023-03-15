@@ -3,8 +3,8 @@ use dioxus::prelude::*;
 
 mod components;
 
-use components::carousel::Carousel;
 use components::cabinet::BookCase;
+use components::carousel::Carousel;
 
 fn main() {
     // init debug tool for WebAssembly
